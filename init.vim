@@ -39,3 +39,6 @@ set smarttab
 " colorscheme
 syntax enable
 autocmd vimenter * ++nested colorscheme gruvbox
+
+" spell checking
+set spell spelllang=en_us
