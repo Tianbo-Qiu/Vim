@@ -12,6 +12,9 @@ Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
 " syntax highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+" status
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " --------------------------------------------------------------------------------------
