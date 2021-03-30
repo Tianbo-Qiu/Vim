@@ -36,7 +36,3 @@ set softtabstop=2
 set expandtab
 set smarttab
 
-" colorscheme
-syntax enable
-autocmd vimenter * ++nested colorscheme gruvbox
-
