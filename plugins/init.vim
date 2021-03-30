@@ -5,17 +5,13 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
-" syntax highlighting
-Plug 'pangloss/vim-javascript'
-Plug 'leafgarland/typescript-vim'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'jparise/vim-graphql'
-Plug 'kevinoid/vim-jsonc'
 " code completion
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 " colorscheme
 Plug 'morhetz/gruvbox'
 Plug 'arcticicestudio/nord-vim'
+" syntax highlighting
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()
 
 " --------------------------------------------------------------------------------------
@@ -37,4 +33,17 @@ if (has("termguicolors"))
 endif
 
 syntax enable
-colorscheme nord
+" colorscheme nord
+autocmd vimenter * ++nested colorscheme gruvbox
+" nvim-treesitter
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+  highlight = {
+    enable = true,
+    custom_captures = {
+      -- Highlight the @foo.bar capture group with the "Identifier" highlight group.
+      -- ["foo.bar"] = "Identifier",
+    },
+  },
+}
+EOF
