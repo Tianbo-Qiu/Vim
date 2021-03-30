@@ -1,4 +1,6 @@
 # nvim config
+## Dependencies
+Neovim nightly
 
 ## Change logs
 Mon Mar 29 22:31:49 PDT 2021
