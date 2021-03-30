@@ -15,6 +15,7 @@ Plug 'kevinoid/vim-jsonc'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 " colorscheme
 Plug 'morhetz/gruvbox'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 " --------------------------------------------------------------------------------------
@@ -29,3 +30,11 @@ autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 " fugitive
 source ~/.config/nvim/plugins/fzf.vim
+" colorscheme
+set nocompatible
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+syntax enable
+colorscheme nord
