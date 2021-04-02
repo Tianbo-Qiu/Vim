@@ -3,6 +3,11 @@
 Neovim nightly
 
 ## Change logs
+
+Thu Apr  1 22:10:52 PDT 2021
+- fix symbol renaming, put leader key config top
+- add vim-commentary
+
 Mon Mar 29 22:31:49 PDT 2021
 - Swtiched to nvim/treesitter for syntax highlighting
 - Added vim airline
