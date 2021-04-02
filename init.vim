@@ -1,8 +1,8 @@
-" Plugins
-source ~/.config/nvim/plugins/init.vim
-
 " leader key
 let g:mapleader = ","
+
+" Plugins
+source ~/.config/nvim/plugins/init.vim
 
 " Alt + hjkl to resize windows
 nnoremap <M-j>    :resize +2<CR>

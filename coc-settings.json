@@ -16,6 +16,7 @@
     "typescriptreact"
   ],
   "tsserver.formatOnType": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
   "coc.preferences.formatOnType": true,
   "languageserver": {
     "ccls": {

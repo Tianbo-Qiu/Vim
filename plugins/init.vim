@@ -15,6 +15,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend upda
 " status
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" commentary
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 " --------------------------------------------------------------------------------------
