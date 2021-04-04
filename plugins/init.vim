@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 " git wrapper
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rhubarb' " Enables :GBrowse
 " FZF
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
