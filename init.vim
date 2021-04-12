@@ -36,3 +36,6 @@ set softtabstop=2
 set expandtab
 set smarttab
 
+" auto reload buffers
+set autoread
+au FocusGained,BufEnter * :checktime

@@ -3,6 +3,9 @@
 Neovim nightly
 
 ## Change logs
+Sun Apr 11 18:31:02 PDT 2021
+- auto reload when there are external changes
+
 Sun Apr  4 11:47:06 PDT 2021
 - Enabled `:GBrowse`
 - Added tmux config
