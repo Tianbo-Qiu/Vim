@@ -1,5 +1,10 @@
 " leader key
 let g:mapleader = ","
+" filetype for tsx
+let g:coc_filetype_map = {
+  \ 'tsx': 'typescript.tsx',
+  \ }
+autocmd bufnewfile,bufread *.tsx set filetype=typescript.tsx
 
 " Plugins
 source ~/.config/nvim/plugins/init.vim
@@ -36,6 +41,3 @@ set softtabstop=2
 set expandtab
 set smarttab
 
-" auto reload buffers
-set autoread
-au FocusGained,BufEnter * :checktime
