@@ -3,6 +3,9 @@
 Neovim nightly
 
 ## Change logs
+Tue May 18 16:43:07 PDT 2021
+- Optimized the speed of switching between splits
+
 Sat May 15 15:18:50 PDT 2021
 - Changed the `filetype` of `tsc` from `typescriptreact` (default) to `typescript.tsx` to fix the auto-indent
 

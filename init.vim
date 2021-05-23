@@ -6,6 +6,9 @@ let g:coc_filetype_map = {
   \ }
 autocmd bufnewfile,bufread *.tsx set filetype=typescript.tsx
 
+" vim-airline optimization, https://github.com/vim-airline/vim-airline/issues/1526
+let g:airline_highlighting_cache=1
+
 " Plugins
 source ~/.config/nvim/plugins/init.vim
 
