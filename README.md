@@ -3,6 +3,9 @@
 Neovim nightly
 
 ## Change logs
+Thu Dec  2 22:14:48 PST 2021
+- Add Rust support
+
 Tue May 18 16:43:07 PDT 2021
 - Optimized the speed of switching between splits
 
