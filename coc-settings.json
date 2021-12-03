@@ -13,7 +13,8 @@
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
+    "rust"
   ],
   "tsserver.formatOnType": true,
   "typescript.preferences.importModuleSpecifier": "relative",
@@ -30,5 +31,4 @@
       }
     }
   }
-
 }
