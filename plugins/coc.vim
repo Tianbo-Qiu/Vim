@@ -3,7 +3,7 @@ let g:coc_global_extensions = [
 	\ 'coc-tsserver',
 	\ 'coc-prettier',
 	\ 'coc-pairs',
-	\ 'coc-eslint',
+	\ 'coc-eslint8',
 	\ 'coc-json',
 	\ 'coc-rls',
 	\ 'coc-rust-analyzer'
