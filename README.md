@@ -1,8 +1,17 @@
 # nvim config
+
 ## Dependencies
-Neovim nightly
+
+Neovim version >= NVIM v0.6.0-dev+501-gcb15055c2
+
+Nvim Treesitter for syntax highlighting which needs to be installed and enabled for each language.
 
 ## Change logs
+Sat Jan  1 09:58:23 PST 2022
+- Add Java support
+- Format on save for C++
+- Update README for dependencies and syntax highlighting
+
 Thu Dec  2 22:14:48 PST 2021
 - Add Rust support
 
