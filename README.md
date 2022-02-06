@@ -7,6 +7,9 @@ Neovim version >= NVIM v0.6.0-dev+501-gcb15055c2
 Nvim Treesitter for syntax highlighting which needs to be installed and enabled for each language.
 
 ## Change logs
+Sun Feb  6 14:07:54 PST 2022
+- Enable format on save for Java
+
 Sat Jan  1 09:58:23 PST 2022
 - Add Java support
 - Format on save for C++
