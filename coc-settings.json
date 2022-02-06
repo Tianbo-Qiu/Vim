@@ -15,7 +15,8 @@
     "typescript",
     "typescriptreact",
     "rust",
-    "cpp"
+    "cpp",
+    "java"
   ],
   "tsserver.formatOnType": true,
   "typescript.preferences.importModuleSpecifier": "relative",
