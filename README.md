@@ -7,6 +7,11 @@ Neovim version >= NVIM v0.6.0-dev+501-gcb15055c2
 Nvim Treesitter for syntax highlighting which needs to be installed and enabled for each language.
 
 ## Change logs
+Sun Jul 24 16:00:10 PDT 2022
+- Add Common Lisp support
+  - [sbcl](https://www.sbcl.org/), `brew install sbcl`
+  - [vlime](https://github.com/vlime/vlime), also check `:h vlime`
+
 Sun Feb  6 14:07:54 PST 2022
 - Enable format on save for Java
 
