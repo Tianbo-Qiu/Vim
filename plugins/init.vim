@@ -18,6 +18,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " commentary
 Plug 'tpope/vim-commentary'
+" Common Lisp dev environment
+Plug 'vlime/vlime', {'rtp': 'vim/'}
 call plug#end()
 
 " --------------------------------------------------------------------------------------
